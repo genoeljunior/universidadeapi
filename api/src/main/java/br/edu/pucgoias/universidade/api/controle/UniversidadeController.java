@@ -71,4 +71,9 @@ public class UniversidadeController {
         universidadeService.excluir(id);
     }
 
+    @GetMapping(value = "/teste")
+    public String teste(){
+        return "isso é apenas um teste";
+    }
+
 }
